@@ -1,5 +1,14 @@
 {
+  "menu": {
+    "home": "Home",
+    "aboutMe": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "welcome": "Welcome",
+  "initialText": "My name is Walfret Rodriguez and this is my portfolio",
   "changeLanguage": "Change Language",
-  "initNav": "Home"
+  "about": {
+    "resume": "I am Web developer with over 5 years of experience in creating web and mobile applications. Specialized in front-end development with strong knowledge in technologies such as Javascript, Typescript, Node js, React Native, React, SASS, and LESS. Capable of managing projects from start to finish, providing innovative and efficient solutions."
+  }
 }

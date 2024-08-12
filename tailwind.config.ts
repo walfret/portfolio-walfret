@@ -5,6 +5,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "selector",
   theme: {
@@ -22,6 +23,15 @@ module.exports = {
         colorTextPrimaryDark: "#ffffff",
         "colorTextSecondary-dark": "#6e6e73",
         "colorTitles-dark": "#718096",
+      },
+      animation: {
+        marquee: "marquee 10s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
     },
   },
